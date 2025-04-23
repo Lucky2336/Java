@@ -1,5 +1,3 @@
-package second;
-
 public class dupli {
     public static void main(String[] args) {
         String str="hello";

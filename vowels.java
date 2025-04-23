@@ -2,7 +2,7 @@ public class vowels
 {
     public static void main(String[] args)
     {
-        String name= "samasyawithaeo";
+        String name= "Hel@523^5";
         int count=0;
         char[] arr=name.toCharArray();
         for(int i=0;i<arr.length;i++)
@@ -12,6 +12,8 @@ public class vowels
                 count++;
             }
         }
-        System.out.println(count);
+        System.out.println("Vowels: " + count);
+        System.out.println("Consonant: " + (arr.length-count));
+
     }
 }
